@@ -1,0 +1,5 @@
+<!-- search_results.html -->
+{% for content in associated_content %}
+    <p>{{ content.paragraph }}</p>
+    <img src="{{ content.figure.url }}" alt="Figure">
+{% endfor %}
